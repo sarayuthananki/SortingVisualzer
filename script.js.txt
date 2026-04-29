@@ -11,3 +11,4 @@ function generateBars(num = 20) {
 }
 
 generateBars();
+
