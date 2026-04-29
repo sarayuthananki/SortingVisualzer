@@ -1,0 +1,13 @@
+const barsContainer = document.getElementById('barsContainer');
+
+function generateBars(num = 20) {
+  barsContainer.innerHTML = '';
+  for (let i = 0; i < num; i++) {
+    const bar = document.createElement('div');
+    bar.classList.add('bar');
+    bar.style.height = `${Math.floor(Math.random() * 200) + 50}px`;
+    barsContainer.appendChild(bar);
+  }
+}
+
+generateBars();
