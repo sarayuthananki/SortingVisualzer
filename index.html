@@ -2,23 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Sorting Visualizer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sorting Algorithm Visualizer</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Sorting Visualizer</h1>
-  <div id="controls">
-    <select id="algorithm">
-      <option value="bubble">Bubble Sort</option>
-      <option value="selection">Selection Sort</option>
-      <option value="insertion">Insertion Sort</option>
-    </select>
-    <button onclick="prevStep()">Previous Step</button>
-    <button onclick="nextStep()">Next Step</button>
-    <button onclick="autoPlay()">Play</button>
-    <label>Speed: <input type="range" id="speed" min="50" max="1000" value="300"></label>
-  </div>
-  <div id="bars"></div>
+  <h1>Sorting Algorithm Visualizer</h1>
+  <div id="barsContainer"></div>
   <script src="script.js"></script>
 </body>
 </html>
